@@ -12,7 +12,25 @@
 <body>
 	
 <!-- Go Emulation -->	
-<iframe frameborder="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ad-freegames.github.io/flash/game/tetris.html" style="border-radius: 1%; height: 720px; width: 1080px;"></iframe>
+	<div id="swfContainer"></div>
+	<script>
+	  window.RufflePlayer = window.RufflePlayer || {};
+	  window.addEventListener("load", (event) => {
+		  const ruffle = window.RufflePlayer.newest();
+		  const player = ruffle.createPlayer();
+		  const container = document.getElementById("swfContainer");
+		  container.appendChild(player);
+		  player.config = {
+			autoplay: "on",  //on is default
+			unmuteOverlay:"hidden",
+			contextMenu: false
+		  };
+		  player.style.width = "1080"; player.style.height = "720";
+		  player.load("https://ad-freegames.github.io/flash/swf/tetris.swf");
+		  
+	  });
+   </script>
+   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <!-- End Emulation -->
   
 <!-- Ad Units -->
