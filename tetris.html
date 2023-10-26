@@ -12,29 +12,29 @@
 <body>
 	
 <!-- Go Emulation -->	
-        <div id="container"></div>
-        <script>
-            window.RufflePlayer = window.RufflePlayer || {};
-            window.RufflePlayer.config = {
-                autoplay: "on",
-                contextMenu: false,
-                unmuteOverlay: "hidden",
-            };
-            document.addEventListener("DOMContentLoaded", function () {
-                let swf = 'https://oldflashgames.github.io/games5/whack-your-ex.swf';
-                if (swf) {
-                    let ruffle = window.RufflePlayer.newest();
-                    let player = Object.assign(document.getElementById("container").appendChild(ruffle.createPlayer()), {
-                        style: 'width: 800px; height: 600px',
-                    });
-                                      player.load({
-                        url: 'https://ad-freegames.github.io/flash/swf/tetris.swf'
-                    });  
-
-                }
+<div id="container"></div>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+        autoplay: "on",
+        contextMenu: false,
+        unmuteOverlay: "hidden",
+    };
+    document.addEventListener("DOMContentLoaded", function() {
+        let swf = '.swf';
+        if (swf) {
+            let ruffle = window.RufflePlayer.newest();
+            let player = Object.assign(document.getElementById("container").appendChild(ruffle.createPlayer()), {
+                style: 'width: 1080px; height: 720px',
             });
-        </script>
-        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+            player.load({
+                url: 'https://ad-freegames.github.io/flash/swf/tetris.swf'
+            });
+
+        }
+    });
+</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <!-- End Emulation -->
   
 <!-- Ad Units -->
