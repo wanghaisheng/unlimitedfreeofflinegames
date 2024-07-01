@@ -74,7 +74,7 @@ urls[21]="https://1000freegames.github.io/subway-surfers/new-york-2018.html"
 images[21]="https://pocket-image-cache.com/300x600/https://static.wikia.nocookie.net/subwaysurf/images/b/b1/SubwaySurfersNewYork2018Splash.png"
 
 urls[22]="https://1000freegames.github.io/subway-surfers/winter-holiday-2019.html"
-images[22]="https://static.wikia.nocookie.net/subwaysurf/images/5/5d/Screenshot_2019-11-28-06-27-12.png"
+images[22]="https://pocket-image-cache.com/300x600/https://static.wikia.nocookie.net/subwaysurf/images/5/5d/Screenshot_2019-11-28-06-27-12.png"
 
 urls[23]="https://1000freegames.github.io/subway-surfers/chicago-2023.html"
 images[23]="https://pocket-image-cache.com/300x600/https://static.wikia.nocookie.net/subwaysurf/images/f/f0/ScreenChicago.webp"
