@@ -17,33 +17,7 @@
 <span class="title">Neave Interactive</span>
 </a>
 <section class="content">
-	
-<!-- Go Emulation -->	
-<div id="container"></div>
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
-        autoplay: "on",
-        contextMenu: false,
-        unmuteOverlay: "hidden",
-    };
-    document.addEventListener("DOMContentLoaded", function() {
-        let swf = '.swf';
-        if (swf) {
-            let ruffle = window.RufflePlayer.newest();
-            let player = Object.assign(document.getElementById("container").appendChild(ruffle.createPlayer()), {
-                style: 'width: 929px; height: 720px',
-            });
-            player.load({
-                url: 'https://1000freegames.github.io/flash/bloons-tower-defense-5.swf'
-            });
-
-        }
-    });
-</script>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<!-- End Emulation -->
-  
+<iframe src="https://1000freegames.github.io/swf/bloons-tower-defense-5.html" style="border-radius: 1%; height: 720px; width: 929px" sandbox="allow-scripts allow-same-origin" scrolling="no"  frameborder="0"></iframe>
 </section>
 <div class="ad skyscraper1">
 <ins class="adsbygoogle" data-ad-client="ca-pub-3818483896982139" data-ad-slot="2386379804" data-page-url="https://unblockedgameszone.blogspot.com/"></ins>
