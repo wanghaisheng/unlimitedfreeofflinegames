@@ -95,8 +95,8 @@ svg {
     height: 40px;
 }
 body {
-    background: #dadada url('https://webgames.io/img/back0.png') repeat;
-    /*background-color: #f3f7f7;*/
+    background: #424286 url('https://webgames.io/img/back0.png') repeat;
+    /*background-color: rgb(255 208 53 / 45%);*/
     font-size: 1.2rem;
     line-height: 1.6;
     color: #39424e;
