@@ -95,12 +95,14 @@ svg {
     height: 40px;
 }
 body {
-    background: rgb(255 208 53 / 45%) url('https://webgames.io/img/back0.png') repeat;
-    /*background-color: rgb(255 208 53 / 45%);*/
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: rgb(255 208 53 / 45%);
-    margin-bottom: 120px;
+	/*background-color: #424286;*/
+	background-color: rgb(255 208 53 / 45%);
+	background-image: url(https://webgames.io/img/back0.png);
+	font-family: krub, sans-serif;
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: 0 200px;
+	background-blend-mode: lighten;
 }
 
 html {
